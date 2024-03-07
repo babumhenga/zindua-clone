@@ -5,32 +5,36 @@
 }
 .navbar{
     display: flex;
-    background-color: rgb(243, 235, 250);
-    padding:20px 10px;
+    background-color: rgb(239, 237, 241);
+    padding: 20px 10px;
 }
 .left-content span{
-    padding:40px;
-    font-size: 20px;
+    padding: 40px;
+    font-size:medium;
 }
 .right-content span{
     margin-left:auto;
     padding-right: 40px;
     padding-left:10px;
     font-size: x-large;
+    color: rgb(71, 71, 231);
 }
 button{
     margin-left:auto;
-    background-color: rgb(111, 13, 202);
+    background-color: rgb(202, 26, 13);
     color:white;
     font-family: 'Times New Roman', Times, serif;
     height: 50px;
-    width: 100px;
+    width: 200px;
     border-radius: 5%;
 }
 .right-content{
     margin-left:400px;
+    display: flex;
 }
-
+.right-content button {
+    background-color: rgb(3, 1, 1);
+}
 .landing-page{
     display: flex;
 }
@@ -40,13 +44,12 @@ img{
     background-color: transparent;
 }
 .image img{
-    height: 100px;
-    margin-left: 700px;
+    height: auto;
     height: 500px;
-    width: 400px;
+    width: auto;
     padding-right: 30px;
     border-radius:5% 5% 5% 5%;
-    margin-top: 10px;
+    
 }
 .first-h1{
     color:red;
@@ -56,10 +59,12 @@ img{
 }
 h2{
     font-size: xx-large;
+    color: rgb(3, 3, 49);  
 }
 .buttons{
     display:flex;
     padding-left: 10px;
+    cursor: pointer;
 }
 .first-button button{
     border-radius: 5%;
@@ -68,4 +73,14 @@ h2{
     margin-left:70px;
     border-radius: 5%;
     width: 160px;
+    background-color: transparent;
+    color:rgb(14, 13, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
+button :hover{
+    background-color: aqua;
+}
+p{
+    font-size: x-large;
+    color: rgb(1, 1, 24);
 }
