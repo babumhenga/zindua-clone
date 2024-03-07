@@ -76,6 +76,7 @@ h2{
     background-color: transparent;
     color:rgb(14, 13, 13);
     font-family: 'Times New Roman', Times, serif;
+    border-color: 2px gold;
 }
 button :hover{
     background-color: aqua;
@@ -83,4 +84,18 @@ button :hover{
 p{
     font-size: x-large;
     color: rgb(1, 1, 24);
+}
+.wrapper{
+    width:900px;
+    height:80px;
+    background-color: black;
+    padding:20px;
+    border-radius: 5px;
+    margin-left: 225px;
+}
+.wrapper img{
+    padding: 10px;
+    padding-left:40px;
+    width: 70px;
+    height:40px;
 }
