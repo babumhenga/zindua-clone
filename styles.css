@@ -24,14 +24,19 @@
     display: flex;
 }
 .right-content button {
-    background-color: rgb(3, 1, 1);
+    background-color: rgb(235, 10, 10);
+    color:white;
+    height:50px;
+    width:100px;
+    border: none;
+    border-radius:5px;
 }
 .landing-page{
     display: flex;
 }
 img{
     width: 65px;
-    height: 50px;
+    height: 30px;
     background-color: transparent;
 }
 .image img{
@@ -56,6 +61,30 @@ p{
     font-size: x-large;
     color: rgb(1, 1, 24);
     margin-left: 10px;
+}
+.btns-landing-page{
+    display:flex;
+}
+.first-btn button{
+    background-color: rgb(255, 37, 37);
+    color:white;
+    width:160px;
+    height:50px;
+    border: 1px solid black;
+    margin-left:200px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.second-btn button{
+    background-color: rgb(255, 255, 255);
+    color:red;
+    width:200px;
+    height:50px;
+    margin-left:250px;
+    font-family: normal;
+    border-radius: 5px;
+    cursor: pointer;
+    border:1px solid red
 }
 .wrapper{
     width:1230px;
@@ -102,4 +131,14 @@ li{
 ul{
     list-style-type: circle ;
     color:blue;
+}
+.software-btn button{
+    background-color:rgb(243, 239, 239);
+    color:red;
+    width: 300px;
+    height:70px;
+    margin-left:60px;
+    border: 1px solid red;
+    border-radius:5px;
+    font-size: x-large;
 }
