@@ -13,7 +13,7 @@ function hello(name) {
 }
 hello("alex");
 
-function area_and_perimeter( length , width){
+function areaAndPerimeter( length , width){
     
 
     let area = length * width

@@ -88,12 +88,13 @@ p{
     border:1px solid red
 }
 .wrapper{
-    width:1230px;
+    width:1222px;
     height:90px;
     background-color: rgb(0, 0, 0);
     padding:20px;
     border-radius: 5px;
-    margin-left: 30px;
+    margin-left: 0px;
+    
 }
 .wrapper img{
     padding: 10px;
@@ -142,4 +143,10 @@ ul{
     border: 1px solid red;
     border-radius:5px;
     font-size: x-large;
+}
+.software-btn .learn:hover{
+    background-color: rgb(43, 52, 92);
+}
+.right-content .apply:hover{
+    background-color: rgb(206, 136, 136);
 }
